@@ -1,0 +1,4 @@
+repository "Map_test_2/Map_test_2@11270641906314@cloud"
+  path "/"
+    br "/main"
+    co "/main"
