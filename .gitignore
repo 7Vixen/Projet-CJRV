@@ -22,3 +22,11 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.svd
+*.pidb
+*.suo
