@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7cf1f95c60a12e74a8d66b4e05537c90
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 330515
+  packageName: Ancient Swords Pack
+  packageVersion: 1.0
+  assetPath: Assets/SL Studio/AncientSwordsPack/Materials/AncientSwordsMaterial.mat
+  uploadId: 827210
