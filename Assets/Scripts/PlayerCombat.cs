@@ -1,21 +1,29 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerCombat : MonoBehaviour
 {
+    public Collider hitbox;
+    public float attackTime = 0.3f;
+    private bool isAttacking = false;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-            Attack();
+            StartCoroutine(Attack());
         }
     }
 
-    void Attack()
+    IEnumerator Attack()
     {
-        // Play attack animation
-        //detect enemies in range of attack
-        //damage them
-        Debug.Log("Player attacks!");
+        isAttacking = true;
+
+        hitbox.enabled = true;
+        yield return new WaitForSeconds(attackTime);
+        hitbox.enabled = false;
+
+        yield return new WaitForSeconds(0.2f); // small cooldown
+        isAttacking = false;
     }
 }
