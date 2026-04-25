@@ -1388,6 +1388,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="Gentleland.SteampunkUI.DemoAndExample.csproj" />
+    <ProjectReference Include="Gentleland.Utils.SteampunkUI.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
