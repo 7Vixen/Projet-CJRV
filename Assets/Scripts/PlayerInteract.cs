@@ -3,9 +3,12 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour
 {
     public float interactRange = 2f;
+    
+     
 
     private void Update()
     {
+        // 1. HANDLE INTERACTION (Press E)
         if (Input.GetKeyDown(KeyCode.E))
         {
             Collider[] colliders = Physics.OverlapSphere(transform.position, interactRange);
@@ -19,12 +22,13 @@ public class PlayerInteract : MonoBehaviour
                 }
             }
         }
+
+        
     }
 
     public IInteractable GetInteractableObject()
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position, interactRange);
-
         foreach (Collider col in colliders)
         {
             if (col.TryGetComponent(out IInteractable interactable))
@@ -32,7 +36,6 @@ public class PlayerInteract : MonoBehaviour
                 return interactable;
             }
         }
-
         return null;
     }
 }
