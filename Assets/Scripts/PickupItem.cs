@@ -2,11 +2,18 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour, IInteractable
 {
+    public Item item;
+
     public void Interact()
     {
-        Debug.Log("Picked up item!");
+        PickUp();
+    }
 
-        // later: add inventory system here
-        Destroy(gameObject);
+    void PickUp()
+    {
+        bool wasPickedUp = Inventory.instance.Add(item);
+
+        if (wasPickedUp)
+            Destroy(gameObject);
     }
 }
