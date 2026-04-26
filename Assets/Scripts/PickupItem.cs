@@ -2,23 +2,18 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour, IInteractable
 {
-    // Drag your "arms 1" object into this slot in the Inspector
-    public Animator playerAnim; 
+    public Item item;
 
-            public void Interact()
-        {
-            Debug.Log("Picked up item!");
+    public void Interact()
+    {
+        PickUp();
+    }
 
-            // Find the animator on the arms
-            GameObject arms = GameObject.Find("arms 1");
-            if (arms != null)
-            {
-                Animator anim = arms.GetComponent<Animator>();
-                // This turns the "hasItem" bool to True in the animator
-                anim.SetBool("hasItem", true);
-            }
+    void PickUp()
+    {
+        bool wasPickedUp = Inventory.instance.Add(item);
 
-            // Later, you can add code here to actually spawn a potion model in the hand
+        if (wasPickedUp)
             Destroy(gameObject);
-        }
+    }
 }
