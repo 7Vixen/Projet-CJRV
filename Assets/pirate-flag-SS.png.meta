@@ -1,0 +1,2087 @@
+fileFormatVersion: 2
+guid: fd3a51ff93f153244b5bbec7975cce86
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pirate-flag-SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55e7035ea2bf704e94d95db20b0d17a
+      internalID: 1025983897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3584
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa74a30bbbea44aa19724ce3ac599d
+      internalID: -228583069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3584
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aaae71eb0b06b42a4f4da40ce9a6ae
+      internalID: -19869255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3584
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a79d83d5394b8e4fa457d2e07b85fa2
+      internalID: 1686805299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3584
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4c704819c23a4f8a58634a9220288
+      internalID: 1503876024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeec2e58e7ad814d9aa37a8faecb5e3
+      internalID: -2002119165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3360
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08ff8b045767e343982a50b1f6a4dda
+      internalID: 1996323625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3360
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd010b9c09dbcea4aa64e6fa25bb0259
+      internalID: 1583342305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3360
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e7f363c2aebea488677c6339c8b272
+      internalID: -1609163282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3360
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd578028dcda7c498e3f171fb9cd826
+      internalID: -752836930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d40e4654b1b24591cd9051edc003b
+      internalID: -264094440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3136
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26046878945d014b8320714f9e0992e
+      internalID: 1991632326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3136
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69de9d35390abc74da37fb89ed625dbc
+      internalID: 1567424618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3136
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ba8e9e5d265ee4989cc251178b1021
+      internalID: -394243605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3136
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6a45f27d82e354c8335536a2ce4387
+      internalID: -1509998724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2912
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c4e4117ac95b54ebd18ba3d837475a
+      internalID: -735070115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2912
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b4fe4170e85a548a76e03b9560de41
+      internalID: -1223946525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2912
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d351171f99040f34a9932a18a1e8a91a
+      internalID: 1621364424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2912
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89afbad0601bae46a8f850693dfd2c5
+      internalID: -294077874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2912
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4576a19ae6c5654db8f510e64780fe5
+      internalID: -683166742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e5eb30a94d38148b8ee293cdaa5f1a
+      internalID: 1460678931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2688
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d511a81c862088340a96e6e748490078
+      internalID: -1028258019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2688
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4bc4edf947c5e47901d487a951d0ae
+      internalID: -847400866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2688
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309101e9735871047a92e36e8063c443
+      internalID: 642834179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_24
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2688
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a131676a69bc67488bb9f31b9990299
+      internalID: 906624548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2464
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5842d9841619074ab591898d6dfbb8e
+      internalID: -692859200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2464
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb376d015b3e6740a4ab3e834499568
+      internalID: 749803172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2464
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252fcf727860da34c93fde241e2f77a1
+      internalID: 1347347632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2464
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966aa35143b9d914eb39df7b97223497
+      internalID: -1081492786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_29
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2464
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d04d14c7ba54a14a94fbcd806982497
+      internalID: 1272987186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7375f27c06304aa13fad1a4160f3f
+      internalID: 1968716710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2240
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5d8dc67d0ab404694e6bce86632773
+      internalID: -1938207007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2240
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c019aaca3edfd014bb912643145af5d3
+      internalID: 1969922025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_33
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2240
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffbc1868721d9143826a6e8af787e99
+      internalID: -1884308506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_34
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2240
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5a57a7a2dd1f041ba8ecb892e73b0c
+      internalID: -24884347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb00b7d0d7c8f514ea067885de0cc933
+      internalID: -496126566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2016
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82c1af43fa7c8c468240f78df113bae
+      internalID: 877467641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2016
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce34fdedc15172d408f0cedeb1e1eb2f
+      internalID: 1055705211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2016
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c0a0d679f2c8140b3bef6d0a195500
+      internalID: 1854821633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_39
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2016
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6225d1d028a6dd4885e7e4d28905e33
+      internalID: 1820437590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d18d7ac55caa1438dbe9fd3696d5f7
+      internalID: -947548016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1792
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671849d104a3ec74a936ae80db1d7347
+      internalID: 2055124145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1792
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d9cfc935ea3f04685e62ee0f66da7f
+      internalID: 1550044866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1792
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ff6c952a385849a3264ae5c68fc26
+      internalID: -1659132542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1792
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2f83d0716b062479f6625b2df893f6
+      internalID: -1776398867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a718213e08a743a3920645bfecb05
+      internalID: -640818913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1568
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f11505f5cb367c41bc265d6c415bdb8
+      internalID: 1222217437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_47
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1568
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fdceea70983a645aba0cf7bf36cd3a
+      internalID: 1349196911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_48
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1568
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc047d1345b5d6e49adef2520a175002
+      internalID: 764053328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_49
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1568
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435278f66564bc64c83809119998b02b
+      internalID: -1730000489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064bd1275fffa8545b3710ef8ec15673
+      internalID: -732314820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1344
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26034bf81e81a84cac0942e88bb50b3
+      internalID: 927486771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_52
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1344
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553e29baad39fd4b961657353c34cd4
+      internalID: 734726507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_53
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1344
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b53af78fbc50e9469e424d0268333d1
+      internalID: -1086471742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_54
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1344
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22980e101294824897decfb1b2342fc
+      internalID: -510165858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ced11a55d4cea4aaace0277234ad2b
+      internalID: -453813855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_56
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1120
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edaf7abcd010c246b4978c3e3dab3d4
+      internalID: 1901374809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_57
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1120
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bda984ab6659a14f958fbde69827beb
+      internalID: -1613681755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1120
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b60bffe7564fe74799669d6b7d77189
+      internalID: -247092540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_59
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1120
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6349c2a7a3368c429553566b3308f93
+      internalID: 1975533336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38343a56908cc5d4ea76d9d3a33d7534
+      internalID: 2096289186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 896
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edadf0d4e50c182449080428c52285bc
+      internalID: -1478424608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 896
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac4d7978485eb644bf3d6f911892ac4
+      internalID: -904829440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 896
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975e0e911b71ff249a60fe3591294093
+      internalID: 2088322640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_64
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 896
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e41e06c7730f84484968a1fc8ec902
+      internalID: -373353291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef51002c0ea6c44c9660f2d5fc26785
+      internalID: 1182029726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 672
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d85cbe6f5cac468f9e055e3cbce8d
+      internalID: -897124290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_67
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 672
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8cd4c1bf395d54c804d39a69aafd4a
+      internalID: -1115987777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_68
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 672
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e029e4f85590e924f97a2b27f670d7b3
+      internalID: 328865751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_69
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 672
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4068920be2f9a043bd551c96bc1c350
+      internalID: 1112047501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbddafaa75f8fc4e879b9239c160f4d
+      internalID: -655463694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_71
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 448
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d871e6c553f8d449e8679ca1a2cbe3
+      internalID: -1345418240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_72
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 448
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2256ffa7bdbddf3429e72dc4e7bdfb17
+      internalID: 1910951437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_73
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 448
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e5976199b56cd448291c62838af237
+      internalID: 862452601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_74
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 448
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0727983779e90644cabe2f0a379faa71
+      internalID: -1898609128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0faffa6aa4ea945a3715e08423ba7c
+      internalID: 126192799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 224
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b10d76df78edd74f8f1c14c66c8a58c
+      internalID: 418730294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_77
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 224
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf12d169cce974fae0d7cf7aa10294
+      internalID: 61986709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_78
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 224
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11db2277393a58945b28d5267247e162
+      internalID: -370793664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_79
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 224
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0c414659f806b4ca638316a9006992
+      internalID: 594312799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec3b986293cc1b4ba1e047835191d48
+      internalID: -423487374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123aa25ca4205f4da1b2a8d4cb88576
+      internalID: -2118580460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_82
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5ab833010f1247ac569e195695065
+      internalID: -1783392821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_83
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41b2f913130c0441bbf0d59bbd9ec86
+      internalID: 838019414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate-flag-SS_84
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 400
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f8ed739d9a8f14ab374b6cad222864
+      internalID: 1363948131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 614bf4bdf68943f43b7516d22b4d9360
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":17.0},"gridSpriteSize":{"x":400.0,"y":224.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      pirate-flag-SS_0: 1025983897
+      pirate-flag-SS_1: -228583069
+      pirate-flag-SS_10: -264094440
+      pirate-flag-SS_11: 1991632326
+      pirate-flag-SS_12: 1567424618
+      pirate-flag-SS_13: -394243605
+      pirate-flag-SS_14: -1509998724
+      pirate-flag-SS_15: -735070115
+      pirate-flag-SS_16: -1223946525
+      pirate-flag-SS_17: 1621364424
+      pirate-flag-SS_18: -294077874
+      pirate-flag-SS_19: -683166742
+      pirate-flag-SS_2: -19869255
+      pirate-flag-SS_20: 1460678931
+      pirate-flag-SS_21: -1028258019
+      pirate-flag-SS_22: -847400866
+      pirate-flag-SS_23: 642834179
+      pirate-flag-SS_24: 906624548
+      pirate-flag-SS_25: -692859200
+      pirate-flag-SS_26: 749803172
+      pirate-flag-SS_27: 1347347632
+      pirate-flag-SS_28: -1081492786
+      pirate-flag-SS_29: 1272987186
+      pirate-flag-SS_3: 1686805299
+      pirate-flag-SS_30: 1968716710
+      pirate-flag-SS_31: -1938207007
+      pirate-flag-SS_32: 1969922025
+      pirate-flag-SS_33: -1884308506
+      pirate-flag-SS_34: -24884347
+      pirate-flag-SS_35: -496126566
+      pirate-flag-SS_36: 877467641
+      pirate-flag-SS_37: 1055705211
+      pirate-flag-SS_38: 1854821633
+      pirate-flag-SS_39: 1820437590
+      pirate-flag-SS_4: 1503876024
+      pirate-flag-SS_40: -947548016
+      pirate-flag-SS_41: 2055124145
+      pirate-flag-SS_42: 1550044866
+      pirate-flag-SS_43: -1659132542
+      pirate-flag-SS_44: -1776398867
+      pirate-flag-SS_45: -640818913
+      pirate-flag-SS_46: 1222217437
+      pirate-flag-SS_47: 1349196911
+      pirate-flag-SS_48: 764053328
+      pirate-flag-SS_49: -1730000489
+      pirate-flag-SS_5: -2002119165
+      pirate-flag-SS_50: -732314820
+      pirate-flag-SS_51: 927486771
+      pirate-flag-SS_52: 734726507
+      pirate-flag-SS_53: -1086471742
+      pirate-flag-SS_54: -510165858
+      pirate-flag-SS_55: -453813855
+      pirate-flag-SS_56: 1901374809
+      pirate-flag-SS_57: -1613681755
+      pirate-flag-SS_58: -247092540
+      pirate-flag-SS_59: 1975533336
+      pirate-flag-SS_6: 1996323625
+      pirate-flag-SS_60: 2096289186
+      pirate-flag-SS_61: -1478424608
+      pirate-flag-SS_62: -904829440
+      pirate-flag-SS_63: 2088322640
+      pirate-flag-SS_64: -373353291
+      pirate-flag-SS_65: 1182029726
+      pirate-flag-SS_66: -897124290
+      pirate-flag-SS_67: -1115987777
+      pirate-flag-SS_68: 328865751
+      pirate-flag-SS_69: 1112047501
+      pirate-flag-SS_7: 1583342305
+      pirate-flag-SS_70: -655463694
+      pirate-flag-SS_71: -1345418240
+      pirate-flag-SS_72: 1910951437
+      pirate-flag-SS_73: 862452601
+      pirate-flag-SS_74: -1898609128
+      pirate-flag-SS_75: 126192799
+      pirate-flag-SS_76: 418730294
+      pirate-flag-SS_77: 61986709
+      pirate-flag-SS_78: -370793664
+      pirate-flag-SS_79: 594312799
+      pirate-flag-SS_8: -1609163282
+      pirate-flag-SS_80: -423487374
+      pirate-flag-SS_81: -2118580460
+      pirate-flag-SS_82: -1783392821
+      pirate-flag-SS_83: 838019414
+      pirate-flag-SS_84: 1363948131
+      pirate-flag-SS_9: -752836930
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
