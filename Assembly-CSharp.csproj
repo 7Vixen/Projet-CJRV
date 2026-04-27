@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\NPCInteract.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\LoadingAnimation.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -83,11 +84,13 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+    <Compile Include="Assets\Scripts\DisappearOnTrigger.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\MouvementPirate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
     <Compile Include="Assets\Scripts\PlayerInteract.cs" />
+    <Compile Include="Assets\Scripts\DetectionPirate.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
