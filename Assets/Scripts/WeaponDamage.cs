@@ -1,4 +1,5 @@
 using UnityEngine;
+using Ilumisoft.HealthSystem;
 
 public class WeaponDamage : MonoBehaviour
 {
@@ -6,12 +7,10 @@ public class WeaponDamage : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Health health = other.GetComponent<Health>();
-
-        if (health != null)
+        var hitbox = other.GetComponent<HitboxComponent>();
+        if (hitbox != null)
         {
-            health.TakeDamage(damage);
+            hitbox.ApplyDamage(damage);
         }
     }
-    
 }
