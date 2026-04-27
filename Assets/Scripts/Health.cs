@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public static Health instance; // ← Add singleton
+    public static Health instance;
 
     public float maxHealth = 100f;
     private float currentHealth;
 
-    private void Awake() // ← Use Awake for singleton
+    private void Awake()
     {
         instance = this;
     }
@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void Heal(float amount) // ← Add this
+    public void Heal(float amount)
     {
         currentHealth += amount;
         if (currentHealth > maxHealth)
@@ -30,6 +30,10 @@ public class Health : MonoBehaviour
     {
         currentHealth -= damage;
 
+        // ─── PAIN SOUND ───────────────────────────────────────────
+        AudioManager.Instance.PlayPainScream();
+        // ─────────────────────────────────────────────────────────
+
         if (currentHealth <= 0)
         {
             Die();
@@ -38,6 +42,12 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
+        // ─── VICTORY MUSIC ────────────────────────────────────────
+        // (called here only if THIS is the enemy — move to a 
+        //  GameManager if you want it on player win condition)
+        // AudioManager.Instance.PlayVictoryMusic();
+        // ─────────────────────────────────────────────────────────
+
         Destroy(gameObject);
     }
 }
