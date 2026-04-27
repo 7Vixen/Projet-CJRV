@@ -49,12 +49,57 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\RenderFace.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\BaseMapMode.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\Editor\ConversationManagerEditor.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesDistortionMaterialPostProcessor.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberCommonGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberUnlitGUIBase.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ZWriteOverride.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\EmissionColorType.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\CustomCoord.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\UICustomCoord.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberLitMaterialPostProcessor.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorUtil.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorWindow.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\MaterialEditorUtility.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\FlowMapTarget.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ColorCorrectionMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\TransparentBlendMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\EmissionMapMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParallaxMapDefinition.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\AlphaTransitionBlendMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ColorChannels.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\EmissionAreaType.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\TintColorMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ShaderKeywords.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\NPCConversationEditor.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\UIParticlesUberUnlitGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\AlphaTransitionMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\MaterialPropertyNames.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\UIParticlesUberLitGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\Optimizer\OptimizedShaderReplacer.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\VertexAlphaMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\TintAreaMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Foundation\Scripts\UnusedReferencesRemover.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorNode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Foundation\Scripts\EditorPrefsProperty.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\RenderType.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberLitGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\Optimizer\OptimizedShaderGenerator.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesDistortionGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberUnlitMaterialPostProcessor.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\LitWorkflowMode.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\Optimizer\OptionalShaderPass.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberLitGUIBase.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberUnlitGUI.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ZTest.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\ParticlesUberCommonMaterialProperties.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\RendererErrorHandler.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\Optimizer\Internal\OptimizedShaderUtillity.cs" />
+    <Compile Include="Assets\N2Studio\Shaders\Nova\Editor\Core\Scripts\AlphaTransitionMapMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
