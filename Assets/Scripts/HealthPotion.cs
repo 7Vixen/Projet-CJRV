@@ -11,8 +11,22 @@ public class HealthPotion : Item
         var player = GameObject.FindWithTag("Player");
         if (player != null)
         {
-            player.GetComponent<HealthComponent>()?.AddHealth(healAmount);
+            var health = player.GetComponent<HealthComponent>();
+            if (health == null)
+                health = player.GetComponentInChildren<HealthComponent>();
+            if (health == null)
+                health = player.GetComponentInParent<HealthComponent>();
+
+            if (health != null)
+                health.AddHealth(healAmount);
+            else
+                Debug.Log("HEALTH NOT FOUND ON PLAYER!");
         }
+        else
+        {
+            Debug.Log("PLAYER GAMEOBJECT NOT FOUND!");
+        }
+
         RemoveFromInventory();
     }
 }

@@ -7,6 +7,9 @@ public class WeaponDamage : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Don't hit the player themselves
+        if (other.CompareTag("Player")) return;
+
         var hitbox = other.GetComponent<HitboxComponent>();
         if (hitbox != null)
         {

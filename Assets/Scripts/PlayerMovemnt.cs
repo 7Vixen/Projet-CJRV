@@ -39,6 +39,19 @@ public class PlayerMovemnt : MonoBehaviour
             anim.SetFloat("Speed", currentSpeed); // This tells the Animator to switch clips
             // --------------------------------
 
+                // ─── FOOTSTEP SOUNDS ──────────────────────────────────────
+            if (currentSpeed > 0.1f && isGrounded)
+            {
+                if (Input.GetKey(KeyCode.LeftShift))
+                    AudioManager.Instance.PlayRunning();
+                else
+                    AudioManager.Instance.PlayWalking();
+            }
+            else
+            {
+                AudioManager.Instance.StopFootsteps();
+            }
+        // ─────────────────────────────────────────────────────────
             if (Input.GetButtonDown("Jump"))
             {
                 Velocity.y=Mathf.Sqrt(jumpHeight * -2f *gravity);
@@ -48,18 +61,13 @@ public class PlayerMovemnt : MonoBehaviour
             controller.Move(Velocity*Time.deltaTime);
 
             // Check for Left Mouse Button click (0 is left, 1 is right)
-        if (Input.GetMouseButtonDown(0))
+        // Check for Left Mouse Button click
+                        if (Input.GetMouseButtonDown(0))
             {
                 if (swordModel.activeInHierarchy)
-                {
-                    // This fires the arrow to Swing01
                     anim.SetTrigger("Swing"); 
-                }
                 else
-                {
-                    // This fires the arrow to PunchRight
                     anim.SetTrigger("Punch"); 
-                }
             }
             
             if (Input.GetKeyDown(KeyCode.Alpha1)) // The "1" key
@@ -74,7 +82,7 @@ public class PlayerMovemnt : MonoBehaviour
             }
         }
 
-        void EquipSword()
+            void EquipSword()
         {
             if (swordModel != null && anim != null)
             {
@@ -87,13 +95,15 @@ public class PlayerMovemnt : MonoBehaviour
                 }
                 else
                 {
-                    // --- CLEANUP: Turn off potion before holding sword ---
                     potionModel.SetActive(false); 
                     anim.SetBool("hasPotion", false);
-                    // ----------------------------------------------------
 
                     swordModel.SetActive(true);
                     anim.SetBool("hasSword", true);
+
+                    // ─── SWORD DRAW SOUND ─────────────────────────────
+                    AudioManager.Instance.PlaySwordDraw();
+                    // ─────────────────────────────────────────────────
                 }
             }
         }

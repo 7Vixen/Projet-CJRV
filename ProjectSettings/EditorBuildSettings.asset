@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/DialogueEditor/Scenes/SampleScene.unity
+    path: Assets/N2Studio/Scenes/N2Studio_Demo.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: e45e3cce1a7bb8f48ac7718984a03dcb
+  - enabled: 1
+    path: Assets/Scenes/BoatPortSea.unity
+    guid: d7062e757fdda27489061daae9fa2ab4
+  - enabled: 1
+    path: Assets/Scenes/Couloir.unity
+    guid: b956e70c94034dd4e9ac049811607045
+  - enabled: 1
+    path: Assets/Scenes/JailRoom.unity
+    guid: 20c19beeedfdf954dbec7084c936d0c8
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: 760ef8126fcbd6143a2d0d5366af99e5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b,
       type: 3}

@@ -8,20 +8,30 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        // Toggle inventory with the tab key
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             ToggleInventory();
         }
     }
 
-     // drag in inspector
-
     public void ToggleInventory()
     {
         isPaused = !isPaused;
         inventoryCanvas.SetActive(isPaused);
 
-        //playerMovement.enabled = !isPaused;
+        if (isPaused)
+        {
+            // Opening inventory — freeze camera, show cursor
+            MouseLook.isPaused = true;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            // Closing inventory — unfreeze camera, hide cursor
+            MouseLook.isPaused = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 }

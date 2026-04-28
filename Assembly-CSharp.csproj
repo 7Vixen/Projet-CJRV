@@ -61,6 +61,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
     <Compile Include="Assets\Scripts\PlayerMovemnt.cs" />
     <Compile Include="Assets\Scripts\HUDManager.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\PlyerInterecUI.cs" />
     <Compile Include="Assets\N2Studio\Shaders\Nova\Runtime\Core\Scripts\ApplyDistortionPass.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
@@ -71,6 +72,8 @@
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\Base\HitboxComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\InventorySlot.cs" />
+    <Compile Include="Assets\Scripts\Teleporter.cs" />
+    <Compile Include="Assets\Scripts\pausemenu.cs" />
     <Compile Include="Assets\Scripts\NPCInteract.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
@@ -90,6 +93,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
+    <Compile Include="Assets\Scripts\setting.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
     <Compile Include="Assets\Scripts\DisappearOnTrigger.cs" />
@@ -103,8 +107,10 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
+    <Compile Include="Assets\Scripts\AmbientZone.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
@@ -123,6 +129,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\PickupItem.cs" />
+    <Compile Include="Assets\Scripts\ConversationEnd.cs" />
     <Compile Include="Assets\Ilumisoft\Health System\Scripts\UI\PlayerHealthbar.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
