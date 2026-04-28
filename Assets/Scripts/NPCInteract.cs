@@ -1,12 +1,15 @@
 using DialogueEditor;
 using UnityEngine;
 
-public class NPCInteract : MonoBehaviour,IInteractable
+public class NPCInteract : MonoBehaviour, IInteractable
 {
     [SerializeField] private NPCConversation myConversavtion;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     public void Interact()
     {
+        MouseLook.isPaused = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         ConversationManager.Instance.StartConversation(myConversavtion);
-}
+    }
 }
